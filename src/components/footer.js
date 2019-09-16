@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa"
+import { FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa"
 
 const FooterStyles = styled.div`
   height: 100px;
@@ -40,21 +40,34 @@ export default function footer() {
   return (
     <FooterStyles>
       <p className="footer-para">
-        2019 - {new Date().getFullYear()}@Muyiwa Global Services Ltd
+        2019 - {new Date().getFullYear()}@MUYIWAQUIS GLOBAL SERVICES LTD
       </p>
 
       <p className="social-media-wrapper">
         <span>
-          <a href="">
+          <a href="https://facebook.com/mglobalservicesltd" target="_blank">
             <FaFacebookF />
           </a>
         </span>
         <span>
-          <FaTwitter />
+          <a href="https://twitter.com/MGSLTD1" target="_blank">
+            <FaTwitter />
+          </a>
         </span>
 
         <span>
-          <FaInstagram />
+          <a
+            href="https://www.instagram.com/mglobalservicesltd"
+            target="_blank"
+          >
+            <FaInstagram />
+          </a>
+        </span>
+
+        <span>
+          <a href="https://wa.me/2348120000036" target="_blank">
+            <FaWhatsapp />
+          </a>
         </span>
       </p>
     </FooterStyles>

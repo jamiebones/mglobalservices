@@ -39,4 +39,25 @@ export const StyledMenu = styled.nav`
       color: ${({ theme }) => theme.primaryHover};
     }
   }
+
+  .social-media-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    transform: translate(-20%, -20%);
+    span {
+      margin: 10px;
+
+      a {
+        color: #1126ca;
+      }
+    }
+    @media (max-width: ${({ theme }) => theme.mobile}) {
+      left: 46%;
+      transform: translate(-46%, -46%);
+      span {
+        margin: 10px;
+      }
+    }
+  }
 `
