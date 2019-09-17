@@ -43,10 +43,6 @@ const FooterStyles = styled.div`
 export default function footer() {
   return (
     <FooterStyles>
-      <p className="footer-para">
-        2019 - {new Date().getFullYear()}@MUYIWAQUIS GLOBAL SERVICES LTD
-      </p>
-
       <p className="social-media-wrapper">
         <span>
           <a href="https://facebook.com/mglobalservicesltd" target="_blank">
