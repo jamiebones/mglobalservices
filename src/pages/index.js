@@ -66,22 +66,8 @@ const IndexPage = () => (
       <div className="row">
         <div className="col-md-6">
           <div className="card-component">
-            <LoadMe
-              script1={
-                <script
-                  src="https://c1.travelpayouts.com/content?promo_id=691&shmarker=243426&language=en&display_currency=USD&transfer_type=any&hide_form_extras=false&hide_external_links=false&disable_currency_selector=false&powered_by=true"
-                  charset="utf-8"
-                  async
-                ></script>
-              }
-              script2={
-                <script
-                  src="https://c1.travelpayouts.com/content?promo_id=691&shmarker=243426&language=en&display_currency=USD&transfer_type=any&hide_form_extras=false&hide_external_links=false&disable_currency_selector=false&powered_by=true"
-                  charSet="utf-8"
-                  async
-                ></script>
-              }
-            />
+            hdjdjdjdj
+            <div id="kiwitaxi_widget_wrapper1243011525"></div>
           </div>
         </div>
 
@@ -90,14 +76,16 @@ const IndexPage = () => (
             <LoadMe
               script1={
                 <script
-                  src="//c22.travelpayouts.com/content?promo_id=1504&shmarker=243426&locale=en&color_scheme=bg&header=Great%20way%20to%20improve%20travel&b_counter=true&b_benefit=true&b_descr=true&b_about=true&b_map=true&b_reviews=true&b_breadcrumbs=true&powered_by=true"
                   charset="utf-8"
+                  async
+                  src="//www.travelpayouts.com/chansey/iframe.js?hotel_id=361687&locale=en&host=search.hotellook.com&marker=243426.&currency=usd&powered_by=true"
                 ></script>
               }
               script2={
                 <script
-                  src="//c22.travelpayouts.com/content?promo_id=1504&shmarker=243426&locale=en&color_scheme=bg&header=Great%20way%20to%20improve%20travel&b_counter=true&b_benefit=true&b_descr=true&b_about=true&b_map=true&b_reviews=true&b_breadcrumbs=true&powered_by=true"
                   charSet="utf-8"
+                  async
+                  src="//www.travelpayouts.com/chansey/iframe.js?hotel_id=361687&locale=en&host=search.hotellook.com&marker=243426.&currency=usd&powered_by=true"
                 ></script>
               }
             />

@@ -8,7 +8,7 @@ const NavStyles = styled.div`
   .logo-text {
     font-size: 1.5rem;
     position: absolute;
-    top: 3%;
+    top: 5%;
     right: 2rem;
     color: #7676ce;
     font-weight: bold;
