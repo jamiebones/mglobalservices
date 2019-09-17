@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import { Helmet } from "react-helmet"
+import Loadable from "@loadable/component"
 
 export default class MyComponent extends Component {
   componentDidMount() {
@@ -8,10 +9,10 @@ export default class MyComponent extends Component {
   }
   render() {
     const { script1, script2 } = this.props
+
     return (
       <React.Fragment>
         <Helmet>{script1}</Helmet>
-
         {script2}
         {/* etc */}
       </React.Fragment>

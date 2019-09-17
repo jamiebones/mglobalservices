@@ -5,6 +5,9 @@ import Layout from "../components/layout"
 import LoadMe from "../components/scriptLoader"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import Loadable from "@loadable/component"
+
+const LoadableWidget = Loadable(() => import("../components/scriptLoader"))
 
 const HomeStyles = styled.div`
   .img-home {
@@ -22,7 +25,7 @@ const IndexPage = () => (
       <div className="row">
         <div className="col-md-6">
           <div className="card-component">
-            <LoadMe
+            <LoadableWidget
               script1={
                 <script
                   charset="utf-8"
@@ -43,7 +46,7 @@ const IndexPage = () => (
 
         <div className="col-md-6">
           <div className="card-component">
-            <LoadMe
+            <LoadableWidget
               script1={
                 <script
                   async
@@ -70,7 +73,7 @@ const IndexPage = () => (
 
         <div className="col-md-6">
           <div className="card-component">
-            <LoadMe
+            <LoadableWidget
               script1={
                 <script
                   charset="utf-8"

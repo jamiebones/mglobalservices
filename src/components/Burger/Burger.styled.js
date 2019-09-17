@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const StyledBurger = styled.button`
   position: absolute;
@@ -13,7 +13,7 @@ export const StyledBurger = styled.button`
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 10;
+  z-index: 5000;
 
   &:focus {
     outline: none;
@@ -42,4 +42,4 @@ export const StyledBurger = styled.button`
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0)")};
     }
   }
-`;
+`

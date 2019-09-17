@@ -12,6 +12,11 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         {props.headComponents}
+        <script
+          charSet="utf-8"
+          src="//www.travelpayouts.com/calendar_widget/iframe.js?marker=243426.&origin=LOS&destination=DXB&currency=usd&searchUrl=travel.mglobalservicesltd.com%2Fflights&one_way=false&only_direct=false&locale=en&period=year&range=7%2C14&powered_by=true&width=800"
+          async
+        ></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
