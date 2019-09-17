@@ -65,10 +65,7 @@ const IndexPage = () => (
 
       <div className="row">
         <div className="col-md-6">
-          <div className="card-component">
-            hdjdjdjdj
-            <div id="kiwitaxi_widget_wrapper1243011525"></div>
-          </div>
+          <div className="card-component"></div>
         </div>
 
         <div className="col-md-6">

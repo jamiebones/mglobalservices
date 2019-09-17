@@ -9,7 +9,11 @@ const FooterStyles = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 2000;
 
   .social-media-wrapper {
     position: absolute;
