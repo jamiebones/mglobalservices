@@ -1,9 +1,15 @@
 import React from "react"
 import styled from "styled-components"
-import { FaFacebookF, FaTwitter, FaInstagram, FaWhatsapp } from "react-icons/fa"
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaWhatsapp,
+  FaPhone,
+} from "react-icons/fa"
 
 const FooterStyles = styled.div`
-  height: 100px;
+  height: 50px;
   background: #b2bbe4;
   color: #000;
   display: flex;
@@ -18,11 +24,11 @@ const FooterStyles = styled.div`
   .social-media-wrapper {
     position: absolute;
     right: 5px;
-    bottom: 3%;
+    bottom: 1px;
   }
 
   span {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 10px;
     color: blue;
     cursor: pointer;
@@ -30,11 +36,11 @@ const FooterStyles = styled.div`
   @media (max-width: ${({ theme }) => theme.mobile}) {
     .social-media-wrapper {
       right: 5px;
-      bottom: 1%;
+      bottom: 2px;
     }
 
     span {
-      font-size: 1rem;
+      font-size: 0.6rem;
       padding: 5px;
     }
   }
@@ -43,6 +49,11 @@ const FooterStyles = styled.div`
 export default function footer() {
   return (
     <FooterStyles>
+      <p>
+        <span>
+          <FaPhone /> +234-8120000036
+        </span>
+      </p>
       <p className="social-media-wrapper">
         <span>
           <a href="https://facebook.com/mglobalservicesltd" target="_blank">
